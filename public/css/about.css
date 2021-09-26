@@ -1,0 +1,72 @@
+/*AboutUS*/
+.pr-3 {
+    padding-right: 30px;
+}
+
+.theme_shadow {
+    box-shadow: 0 5px 18px rgb(0 0 0 / 18%);
+    padding: 28px;
+}
+.hours-block strong {
+    display: inline-block;
+    width: 110px;
+}
+
+.hours-wrapper {
+    margin-top: 50px;
+}
+
+.iframe-video {
+    width: 570px;
+    height: 329px;
+}
+
+@media only screen and (max-width: 576px) {
+    .iframe-video {
+        width: 100%;
+    }
+    .hours {
+        margin-bottom: 30px;
+    }
+    .hours-block strong {
+        font-size: 18px;
+        width: 140px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .iframe-video {
+        width: 100%;
+    }
+
+    .theme_shadow {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 18px;
+    }
+
+    .hours-wrapper {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hours-block strong {
+        display: inline-block;
+        width: 80px;
+    }
+
+    .theme_shadow {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .iframe-video {
+        width: 696px;
+        height: 391px;
+    }
+
+    .hours-wrapper {
+        margin-left: 50px;
+    }
+}
